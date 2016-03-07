@@ -1,0 +1,33 @@
+{
+  "name": "knowthecode/docx",
+  "description": "Sandbox Demo / Test Site",
+  "type": "project",
+  "authors": [
+    {
+      "name": "hellofromtonya",
+      "email" : "hellofromtonya@knowthecode.io"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "raveren/kint" : "~1.0",
+    "filp/whoops": "~2.0"
+  },
+  "autoload": {
+    "files": [
+      "src/support/exceptions.php",
+      "demo.php"
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "config": {
+    "vendor-dir": "assets/vendor"
+  },
+  "minimum-stability": "dev"
+}
