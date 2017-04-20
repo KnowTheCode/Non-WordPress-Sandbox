@@ -12,7 +12,7 @@
     "php": ">=5.5.9"
   },
   "require-dev": {
-    "raveren/kint" : "~1.0",
+    "kint-php/kint" : "^1.0",
     "filp/whoops": "~2.0"
   },
   "autoload": {
